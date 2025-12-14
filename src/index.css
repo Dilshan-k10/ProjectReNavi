@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-inter);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Inter;
+    src: url("../src/assets/fonts/Inter_18pt-Regular.ttf");
+}
+
+
+@theme {
+    --font-inter: Inter, "sans-serif";
+
+}

@@ -1,0 +1,46 @@
+.introStyle {
+    @apply text-base font-bold tracking-widest uppercase mb-6 text-center lg:text-left;
+}
+
+.headingStyle {
+    @apply text-[32px] lg:text-[62px] font-bold mb-[18px] leading-[40px] lg:leading-[70px] text-center lg:text-left;
+}
+
+.headingDescriptionStyle {
+    @apply text-base text-center lg:text-left leading-[20px] lg:leading-[25px];
+}
+
+.footerTextStyle {
+    @apply text-base text-center leading-[20px];
+}
+
+.largeButtonTextStyle {
+    @apply text-center text-[16px] lg:text-[20px] leading-[20px] text-whiteColor font-bold;
+}
+
+.extraSmallTextStyle {
+    @apply text-center text-[10px] lg:text-[12px] leading-[20px] text-whiteColor;
+}
+
+.primaryButtonStyle {
+    @apply mt-6 px-6 py-3 mr-[12px] bg-primaryBlue text-whiteColor rounded-[60px] font-bold text-[16px] lg:text-[20px] w-[140px] lg:w-[180px] h-auto lg:h-[60px] hover:bg-secondaryBlue hover:text-white transition duration-300 text-center items-center justify-center;
+}
+.secondaryButtonStyle {
+    @apply mt-6 px-6 py-3 mr-[12px] bg-whiteColor text-primaryBlue rounded-[60px] border-2 border-primaryBlue font-bold text-[16px] lg:text-[20px] w-[140px] lg:w-[180px] h-auto lg:h-[60px] hover:bg-primaryBlue hover:text-white transition duration-300 items-center justify-center text-center;
+}
+
+.cardButtonStyle {
+    @apply mt-[20px] lg:mt-[28px] px-20 lg:px-20 py-1 lg:py-3 bg-primaryBlue text-whiteColor rounded-[60px] font-bold text-[14px] lg:text-[16px] items-center text-center gap-2 w-max hover:bg-secondaryBlue hover:text-white transition duration-300;
+}
+
+.navbarPrimaryButtonStyle {
+    @apply px-4 lg:px-6 py-2 lg:py-2 bg-primaryBlue text-whiteColor rounded-[60px] font-bold text-[12px] lg:text-[12px] w-max h-auto hover:bg-secondaryBlue hover:text-white transition duration-300 text-center items-center justify-center;
+}
+
+.navbarSecondaryButtonStyle {
+    @apply px-4 lg:px-6 py-2 lg:py-2 bg-whiteColor text-primaryBlue rounded-[60px] border-2 border-primaryBlue font-bold text-[12px] lg:text-[12px] w-max h-auto hover:bg-primaryBlue hover:text-white transition duration-300;
+}
+
+.cardTitleStyle {
+    @apply text-left lg:text-left text-[18px] lg:text-[20px] font-bold leading-[20px] lg:leading-[25px] mt-[28px] mb-[20px];
+}
