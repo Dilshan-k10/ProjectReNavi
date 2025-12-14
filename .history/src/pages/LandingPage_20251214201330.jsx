@@ -3,6 +3,7 @@ import "../styles/styles.css";
 import FeaturesBar from "../components/ui/FeaturesBar";
 import ComponentCard from "../components/ui/ComponentCard";
 import Footer from "../components/layouts/Footer";
+import Navbar from "../components/layouts/navbar";
 import ResponsiveNavbar from "../components/layouts/ResponsiveNavbar";
 import AboutUs from "../components/layouts/AboutUs";
 import ContactUs from "../components/layouts/ContactUs";
